@@ -1,2 +1,0 @@
-module DynamicSelectable::StatesHelper
-end

@@ -11,10 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130829090742) do
+ActiveRecord::Schema.define(version: 20130829091716) do
 
   create_table "countries", force: true do |t|
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "events", force: true do |t|
+    t.string   "name"
+    t.integer  "country_id"
+    t.integer  "state_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

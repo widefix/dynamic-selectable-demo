@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: RubyConf
+  country_id: 1
+  state_id: 1
+
+two:
+  name: RailsConf
+  country_id: 2
+  state_id: 2

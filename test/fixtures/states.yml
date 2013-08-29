@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+minsk:
+  name: Minsk
+  country_id: 1
+
+grondo:
+  name: Grondo
+  country_id: 1
+
+ca:
+  name: California
+  country_id: 2
+al:
+  name: Alaska
+  country_id: 2

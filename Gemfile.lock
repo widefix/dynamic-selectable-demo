@@ -48,6 +48,8 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    migration_data (0.0.3)
+      activerecord (>= 4.0.0.rc1)
     mime-types (1.24)
     minitest (4.7.5)
     multi_json (1.7.9)
@@ -110,6 +112,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.0.1)
   jquery-rails
+  migration_data
   rails (= 4.0.0.rc1)
   sass-rails (~> 4.0.0.rc1)
   sdoc

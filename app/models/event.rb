@@ -5,4 +5,7 @@ class Event < ActiveRecord::Base
   validates :name, presence: true
   validates :country, presence: true
   validates :state, presence: true
+
+  delegate :name, to: :country, prefix: true, allow_nil: true
+  delegate :name, to: :state, prefix: true, allow_nil: true
 end
